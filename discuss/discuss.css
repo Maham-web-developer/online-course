@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar{
+    color: #fff;
+    background-color:rgb(204, 120, 36);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right:100px ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+}
+.discussion-container {
+    width: 60%;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.message {
+    border-bottom: 1px solid #333;
+    padding: 10px 0;
+}
+
+form {
+    width: 60%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(204, 120, 36);
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
